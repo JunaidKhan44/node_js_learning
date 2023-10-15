@@ -1,0 +1,17 @@
+{
+  "dependencies": {
+    "express": "^4.18.2",
+    "nodemailer": "^6.9.6",
+    "nodemon": "^3.0.1"
+  },
+  "name": "email_sender",
+  "version": "1.0.0",
+  "description": "this is simple email sender project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "author": "Junaid.Khan",
+  "license": "ISC"
+}
