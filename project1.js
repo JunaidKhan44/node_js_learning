@@ -4,11 +4,6 @@ const fs = require("fs");
 
 http.createServer((req,res) =>{
 
-    //request
-    //index
-    //about
-    //service
-
     const path=req.url;
     if(path=='/about'){
         console.log("about page")
