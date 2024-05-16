@@ -1,10 +1,6 @@
 const http = require("http");
 
 const server = http.createServer((req,resp)=>{
-    //req request
-    //resp for writing response
-  
-
     resp.writeHead(200,{'content-type':"text/html"})
     resp.write("<h1>Hello world junaid</h1>")
     resp.write("<h2> junaid</h2>")
