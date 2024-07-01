@@ -1,7 +1,4 @@
 // console.log("node project started");
-
-// console.log("nodempn project started");
-
 const mailer = require('nodemailer')
 
 let transport = mailer.createTransport({
