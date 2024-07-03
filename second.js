@@ -9,6 +9,4 @@ const server = http.createServer((req,resp)=>{
 
 }).listen(9090)
 
-//server.listen(9090)
-
 
